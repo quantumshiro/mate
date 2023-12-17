@@ -39,7 +39,6 @@ pub fn main() !void {
     var tempDisance: [CLASS]f16 = undefined;
     var class_num: [CLASS]i8 = undefined;
     _ = class_num;
-
     for (0..DIMENTION) |i| {
         for (0..DIMENTION) |j| {
             centerPosit[i][j] = INITCENTERPOSIT[i][j];
